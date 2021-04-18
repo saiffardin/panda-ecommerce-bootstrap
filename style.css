@@ -1,0 +1,73 @@
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+
+.carousel-item{
+    padding: 20px 40px;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+
+
+
+.price{
+    color: #ff136f;
+}
+
+.buy-now-btn {
+
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    margin-top: 10px;
+    /* cursor: pointer; */
+}
+
+.btn-shoe{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    
+}
+
+/* .shoes h2 {
+    margin-top: 80px;
+} */
+.shoes .card {
+    box-shadow: 5px 5px 10px lightgrey;
+    /* box-shadow:10px 10px 46px -17px rgba(0,0,0,0.75); */
+}
+
+.catagories{
+    color: white;
+
+}
+
+.catagories img{
+    /* width: 100%; */
+}
+
+
+.cat-1, .cat-2, .cat-3 {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+    /* 01716932793 toukir */
+.cat-1{
+    background-image: linear-gradient(90deg, #e77a14,#ffc500);
+}
+
+.cat-2{
+    background-image: linear-gradient(90deg, #ff136f, #b90e6c);
+}
+
+.cat-3{
+    background-image: linear-gradient(90deg, #1488CC,#2B32B2);
+}
