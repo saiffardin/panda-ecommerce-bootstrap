@@ -1,3 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
 .orange-bg{
     background-color: #fceae8;
     border-radius: 10px;
@@ -6,6 +12,7 @@
 .carousel-item{
     padding: 20px 40px;
 }
+
 
 .container{
     margin-bottom: 100px;
@@ -25,7 +32,11 @@
     border-radius: 8px;
     padding: 9px 25px;
     margin-top: 10px;
-    /* cursor: pointer; */
+    cursor: pointer;
+}
+
+.shoes-and-backpacks {
+    background-color: rgb(241, 238, 238);
 }
 
 .btn-shoe{
@@ -37,10 +48,8 @@
     
 }
 
-/* .shoes h2 {
-    margin-top: 80px;
-} */
-.shoes .card {
+
+.card {
     box-shadow: 5px 5px 10px lightgrey;
     /* box-shadow:10px 10px 46px -17px rgba(0,0,0,0.75); */
 }
@@ -50,16 +59,13 @@
 
 }
 
-.catagories img{
-    /* width: 100%; */
-}
 
 
 .cat-1, .cat-2, .cat-3 {
     padding: 10px 30px;
     border-radius: 10px;
 }
-    /* 01716932793 toukir */
+    
 .cat-1{
     background-image: linear-gradient(90deg, #e77a14,#ffc500);
 }
@@ -71,3 +77,31 @@
 .cat-3{
     background-image: linear-gradient(90deg, #1488CC,#2B32B2);
 }
+
+
+
+.subscribe{
+    background-color: #FEEAE9;
+    width: 90%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.subscribe h3 {
+    font-weight: 300;
+}
+
+
+.subscribe h6 {
+    font-weight: 300;
+}
+
+::placeholder {
+    color: gray !important ;
+    font-weight: 200;
+}
+
+form {
+    width: 400px !important;
+}
+
